@@ -2,11 +2,13 @@ extends layout
 
 block content
   h1= time
-  h1 Kenya Guzmán's RESTful API
-  h2 Time Microservice
+  h1 Kenya Guzman's RESTful API
+  h2 Timestamp Microservice
   p.red Example Usage
-  code localhost:3000/December 15, 2015
   br
-  code localhost:3000/1450137600
+  p Put the API's URL followed by the date in natural or unix format
+  code sincere-kite.glitch.me/December 15, 2015
+  br
+  code sincere-kite.glitch.me/1450137600
   p.red Expected Output is JSON
   code {"unix": 1450137600, "natural": December 15, 2015 }
